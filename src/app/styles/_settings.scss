@@ -1,5 +1,11 @@
-// background
+
+@font-face {
+  font-family: "Bebas Neue";
+  src : url(fonts/BebasNeue-Regular.ttf);
+}
 
 body {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
   background-color: #282c34;
 }
