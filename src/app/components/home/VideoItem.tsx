@@ -1,8 +1,20 @@
 import React from "react";
 
-function VideoItem() {
+export type Video = {
+    title: string
+    description: string
+}
+
+function VideoItem(props: { video: Video }) {
+    const modal = document.getElementsByClassName(".Video-Modal")
+
     return (
-        <div className="Video-item"></div>
+        <a role="button">
+            <div className="Video-item">
+                <span>{props.video.title}</span>
+
+            </div>
+        </a>
     )
 }
 
