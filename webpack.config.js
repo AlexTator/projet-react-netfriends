@@ -54,7 +54,6 @@ const config = {
       template: SRC_DIR + '/index.html',
       filename: DIST_DIR + '/index.html'
     }),
-    new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ],
   
@@ -65,7 +64,6 @@ const config = {
     compress: true,
     port: 9000,
     hot: true,
-    inline: true
   }
 };
   
