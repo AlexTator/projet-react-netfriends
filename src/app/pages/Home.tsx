@@ -1,11 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import VideoCarousel from "../components/home/VideoCarousel";
 
 function Home() {
     return (
         <div className="App-home">
             <Navbar/>
-            <h1>Home</h1>
+            <div className="Home-content">
+                <h2>To see</h2>
+                <VideoCarousel />
+                <h2>To see</h2>
+                <VideoCarousel/>
+            </div>
         </div>
     )
 }

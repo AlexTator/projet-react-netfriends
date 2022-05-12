@@ -1,4 +1,8 @@
 .App-nav {
+  justify-content: space-between;
+}
+
+.App-nav, .Nav-brand {
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -11,11 +15,10 @@
 
   a {
     text-decoration: none;
-    color: #ffff;
-    margin: 0 1.5rem;
+  }
 
-    &.nav-active {
-      color: #1C9CEA;
-    }
+  a, p {
+    margin: 0 1.5rem;
+    color: #ffff;
   }
 }

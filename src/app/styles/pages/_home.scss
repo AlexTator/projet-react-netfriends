@@ -1,3 +1,28 @@
 .App-home {
   color: #ffff;
+
+  .Home-content {
+    padding: 0 2rem;
+    overflow-x: hidden;
+
+    h2 {
+      margin-top: 4rem;
+      margin-left: 3rem;
+    }
+
+    .Video-carousel {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: nowrap;
+      width: fit-content;
+
+      .Video-item {
+        width: 350px;
+        height: 250px;
+        background-color: #ffff;
+        margin: 0 2rem;
+        border: 4px solid #0000;
+      }
+    }
+  }
 }
